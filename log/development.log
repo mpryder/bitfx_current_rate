@@ -17007,3 +17007,284 @@ ActionController::RoutingError (No route matches [GET] "/font/fontawesome-webfon
 
 
   Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (2.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-01 17:38:14 +0100
+Connecting to database specified by database.yml
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (55.0ms)
+  Rendered layouts/_shim.html.erb (1.0ms)
+  [1m[36mUser Load (2.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (333.1ms)
+  Rendered layouts/_footer.html.erb (4.0ms)
+Completed 200 OK in 1459ms (Views: 1419.2ms | ActiveRecord: 39.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-05-01 17:38:21 +0100
+Served asset /sessions.css - 304 Not Modified (36ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-05-01 17:38:21 +0100
+Served asset /custom.css - 200 OK (158ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-05-01 17:38:22 +0100
+Served asset /main.css - 200 OK (42ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-05-01 17:38:22 +0100
+Served asset /font-awesome.css - 200 OK (47ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-05-01 17:38:23 +0100
+Served asset /font-awesome.min.css - 200 OK (15ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-05-01 17:38:23 +0100
+Served asset /users.css - 200 OK (63ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-05-01 17:38:23 +0100
+Served asset /static_pages.css - 200 OK (105ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-01 17:38:24 +0100
+Served asset /jquery.js - 304 Not Modified (152ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-01 17:38:24 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (24ms)
+
+
+Started GET "/assets/marketList.js?body=1" for 127.0.0.1 at 2014-05-01 17:38:24 +0100
+Served asset /marketList.js - 200 OK (15ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-05-01 17:38:24 +0100
+Served asset /sessions.js - 304 Not Modified (13ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-05-01 17:38:25 +0100
+Served asset /static_pages.js - 200 OK (20ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-05-01 17:38:25 +0100
+Served asset /users.js - 200 OK (27ms)
+
+
+Started GET "/current_rates" for 127.0.0.1 at 2014-05-01 17:38:32 +0100
+Processing by StaticPagesController#current_rates as HTML
+  Rendered static_pages/current_rates.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (6.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 243ms (Views: 241.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-05-01 17:38:33 +0100
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-01 17:38:33 +0100
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-05-01 17:38:33 +0100
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-01 17:38:33 +0100
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/current_rates" for 127.0.0.1 at 2014-05-01 17:44:03 +0100
+Processing by StaticPagesController#current_rates as HTML
+  Rendered static_pages/current_rates.html.erb within layouts/application (0.0ms)
+Compiled marketList.js  (2ms)  (pid 5516)
+Compiled application.js  (99ms)  (pid 5516)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (7.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 950ms (Views: 948.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-05-01 17:44:04 +0100
+Served asset /font-awesome.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-05-01 17:44:04 +0100
+Served asset /sessions.css - 200 OK (1ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-05-01 17:44:04 +0100
+Served asset /custom.css - 200 OK (108ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-05-01 17:44:05 +0100
+Served asset /font-awesome.min.css - 200 OK (1ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-05-01 17:44:05 +0100
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-05-01 17:44:06 +0100
+Served asset /static_pages.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-05-01 17:44:06 +0100
+Served asset /users.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-01 17:44:06 +0100
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-01 17:44:06 +0100
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/marketList.js?body=1" for 127.0.0.1 at 2014-05-01 17:44:07 +0100
+Served asset /marketList.js - 200 OK (20ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-05-01 17:44:07 +0100
+Served asset /sessions.js - 200 OK (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-05-01 17:44:07 +0100
+Served asset /static_pages.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-05-01 17:44:08 +0100
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/current_rates" for 127.0.0.1 at 2014-05-01 19:08:34 +0100
+Processing by StaticPagesController#current_rates as HTML
+  Rendered static_pages/current_rates.html.erb within layouts/application (1.0ms)
+Compiled marketList.js  (2ms)  (pid 5516)
+Compiled application.js  (134ms)  (pid 5516)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[35mUser Load (2.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_footer.html.erb (2.0ms)
+Completed 200 OK in 1037ms (Views: 1035.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-05-01 19:08:36 +0100
+Served asset /main.css - 200 OK (5ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-05-01 19:08:36 +0100
+Served asset /custom.css - 200 OK (44ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-05-01 19:08:36 +0100
+Served asset /font-awesome.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-05-01 19:08:37 +0100
+Served asset /font-awesome.css - 200 OK (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-05-01 19:08:37 +0100
+Served asset /sessions.css - 200 OK (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-05-01 19:08:38 +0100
+Served asset /static_pages.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-01 19:08:38 +0100
+Served asset /jquery.js - 200 OK (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-05-01 19:08:38 +0100
+Served asset /users.css - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-01 19:08:39 +0100
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/marketList.js?body=1" for 127.0.0.1 at 2014-05-01 19:08:39 +0100
+Served asset /marketList.js - 200 OK (23ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-05-01 19:08:40 +0100
+Served asset /sessions.js - 200 OK (0ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-05-01 19:08:40 +0100
+Served asset /static_pages.js - 200 OK (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-05-01 19:08:40 +0100
+Served asset /users.js - 200 OK (3ms)
+
+
+Started GET "/current_rates" for 127.0.0.1 at 2014-05-01 19:10:04 +0100
+Processing by StaticPagesController#current_rates as HTML
+  Rendered static_pages/current_rates.html.erb within layouts/application (1.0ms)
+Compiled marketList.js  (1ms)  (pid 5516)
+Compiled application.js  (42ms)  (pid 5516)
+  Rendered layouts/_shim.html.erb (0.0ms)
+  [1m[36mUser Load (1.0ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."remember_token" IS NULL LIMIT 1[0m
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_footer.html.erb (1.0ms)
+Completed 200 OK in 1255ms (Views: 1253.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/font-awesome.min.css?body=1" for 127.0.0.1 at 2014-05-01 19:10:06 +0100
+Served asset /font-awesome.min.css - 200 OK (0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-05-01 19:10:06 +0100
+Served asset /custom.css - 200 OK (143ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2014-05-01 19:10:06 +0100
+Served asset /sessions.css - 200 OK (2ms)
+
+
+Started GET "/assets/font-awesome.css?body=1" for 127.0.0.1 at 2014-05-01 19:10:07 +0100
+Served asset /font-awesome.css - 200 OK (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2014-05-01 19:10:07 +0100
+Served asset /main.css - 200 OK (0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-05-01 19:10:07 +0100
+Served asset /static_pages.css - 200 OK (19ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-05-01 19:10:07 +0100
+Served asset /users.css - 200 OK (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-05-01 19:10:08 +0100
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-05-01 19:10:08 +0100
+Served asset /jquery_ujs.js - 200 OK (1ms)
+
+
+Started GET "/assets/marketList.js?body=1" for 127.0.0.1 at 2014-05-01 19:10:08 +0100
+Served asset /marketList.js - 200 OK (120ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2014-05-01 19:10:08 +0100
+Served asset /sessions.js - 200 OK (1ms)
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-05-01 19:10:09 +0100
+Served asset /static_pages.js - 200 OK (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-05-01 19:10:09 +0100
+Served asset /users.js - 200 OK (1ms)

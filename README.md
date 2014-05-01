@@ -1,3 +1,4 @@
+
 bitFX
 =====
 
@@ -29,4 +30,8 @@ http://stackoverflow.com/questions/3139879/how-do-i-get-currency-exchange-rates-
 Heroku Dyno
 =============
 https://serene-refuge-9162.herokuapp.com/
+
+=======
+bitfx_Test
+==========
 
